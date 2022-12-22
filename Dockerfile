@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:bullseye
 MAINTAINER Julien Francoz <julien-postgresqltuner@francoz.net>
 RUN apt-get update \
  && apt-get install -y libdbd-pg-perl ssh \
